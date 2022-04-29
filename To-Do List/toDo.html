@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="toDo.css"/>
+</head>
+
+<body>
+    <header>
+        <h1><b>TO-DO LIST</b></h1>
+        <form id="TaskForm" autocomplete="off">
+            <input type="text" id="TaskInput" placeholder="Enter The Task!" />
+            <input type="submit" id="TaskSubmit" value="Add" />
+        </form>
+    </header>
+    <main>
+        <section class="TaskArray">
+        <h2 id="T">Tasks: 0</h2>
+            <div id="Tasks">
+            </div>
+        </section>
+    </main>
+
+    <script src="toDo.js"></script>
+</body>
+</html>
